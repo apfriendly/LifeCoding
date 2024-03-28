@@ -15,3 +15,11 @@ words = ["apple", "banana", "cherry", "date", "fig"]
 letter = input()
 count = len(list(filter(lambda word: letter in word, words)))
 print(count)
+
+
+# Напиши лямбда-выражение, которое принимает строку и возвращает True, если строка является палиндромом,
+# и False в противном случае. Палиндром - это слово, которое читается одинаково слева направо и справа налево.
+# Например, "radar" и "level" являются палиндромами.
+
+revers_ = lambda x: x == x[::-1]
+print(revers_('12321'))
