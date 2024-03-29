@@ -23,3 +23,10 @@ print(count)
 
 revers_ = lambda x: x == x[::-1]
 print(revers_('12321'))
+
+
+# Напиши код, используя лямбда-выражение, чтобы отсортировать список по второму элементу каждого кортежа
+
+items = [("book", 20), ("pen", 5), ("pencil", 2), ("notebook", 10)]
+sorted_items = list(sorted(items, key=lambda item: item[1]))
+print(sorted_items)
