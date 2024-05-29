@@ -1,3 +1,5 @@
+# Определить текущую дату и время и вывести их на экран
+
 from datetime import datetime
 
 
