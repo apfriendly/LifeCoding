@@ -1,3 +1,5 @@
+# Написать функцию, котрая проверяет является ли число палиндромом.
+
 def is_palindrome(x: int) -> bool:
 
     digits = [i for i in str(x)]
